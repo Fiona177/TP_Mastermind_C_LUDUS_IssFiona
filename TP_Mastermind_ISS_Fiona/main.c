@@ -30,10 +30,12 @@ int main()
 	int nProposition[4]; //La proposition du joueur
 
 	random(CODE);//on appelle la fonction random pour que le code secret soit généré aléatoirement
-	for (int i = 0; i < 4; ++i)
+
+	//Boucle qui permet d'afficher le CODE secret
+	/*for (int i = 0; i < 4; ++i)
 	{
 		printf("%d\n",CODE[i] );
-	}
+	}*/
 
     printf("Nous allons jouer au Mastermind\n");
     while ((nEssai<12)) //tant que le nombre d'essai est inférieur à 12
